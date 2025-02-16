@@ -1,5 +1,4 @@
-from fastapi import FastAPI, Request
-from fastapi.responses import HTMLResponse
+from fastapi import FastAPI
 from schemas import Input
 app = FastAPI()
 
